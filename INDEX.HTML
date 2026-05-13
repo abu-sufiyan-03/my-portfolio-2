@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #menu{
+            border: 2px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            box-shadow: 3px 3px 5px grey;
+        }
+        nav a{
+            margin-left: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        #menu h1{
+            font-size: 40px;
+            letter-spacing: 3px;
+            color: brown;
+            text-shadow: 2px 2px 3px black;
+        }
+        body{
+            background-image: linear-gradient(120deg , wheat , white ,lightseagreen);
+        }
+        #pd{
+            display: inline-block;
+            width: 45%;
+            position: relative;
+        }
+        #pp{
+            display: inline-block;
+            width: 45%;
+            position: relative;
+        }
+        #pd h1 {
+            position: absolute;
+            left: 100px;
+        
+        }
+        #pp img{
+                width: 200px;
+                height: 200px;
+                border: 5px inset;
+                border-radius: 50%;
+                outline: 3px solid green;
+                position: absolute;
+                box-shadow: 7px 7px 3px white;
+                top: 50px;
+                left: 160px;
+            }
+            #hh{
+                top: 50px;
+            }
+            #hhh{
+                top: 100px;
+            }
+            #hhhh{
+                top: 150px;
+            }
+            span{
+                color: red;
+            }
+            #cbtn{
+                position: absolute;
+                top: 250px;
+                left: 250px;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                padding: 15px;
+                border: 2px solid white;
+                border-radius: 30px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            #smi{
+                width: 45%;
+                position: relative;
+                /* border: 2px outset; */
+                height: 70px;
+                font-size: 30px;
+                margin-top: 320px;
+                margin-left: 200px; 
+            }
+            #smi a{
+                box-shadow: 5px 5px 5px lightcoral  ;
+            }
+            #pd a{
+                box-shadow: 2px 2px 3px darkblue;
+            }
+    </style>
+</head>
+<body>
+   <div id="menu">
+    <h1>HUBNET</h1>
+    <NAV>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Skills</a>
+        <a href="">Education</a>
+        <a href="">Work</a>
+        <a href="">Experince</a>
+        <a href="">Contact</a>
+        </NAV>
+    </div>
+    <div id="pd">
+        <h1 id="hh"> <span>Hi</span>, There </h1>
+        <h1 id="hhh">Hubnet Education</h1>
+        <h1 id="hhhh">I am a full Stack <span>Developer</span></h1>
+        <a href="IMG_0399.JPG" download="cv.png" id="cbtn">Aboutme</a>
+    </div>
+    <div id="pp">
+        <img src="IMG_0399.JPG" alt="">
+    </div>
+    <div id="smi">
+       <a href=""><i class="fa-brands fa-github"></i></a>
+       <a href=""><i class="fa-brands fa-youtube"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+       <a href=""><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</body>
+</html>
